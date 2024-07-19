@@ -1,21 +1,19 @@
 {
-    "name": "yudhadev/laravel-image-helpers",
-    "description": "Laravel Image Upload",
+    "name": "yudhadev/laravel-image-helperx",
+    "description": "Image Helper For Myself",
     "type": "library",
     "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Yudhadev\\LaravelImageHelper\\": "src/"
+        }
+    },
     "authors": [
         {
             "name": "yudha-dev",
             "email": "ydnd21@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "autoload": {
-        "psr-4": {
-            "Yudhadev\\LaravelImageHelper\\": "src/"
-        }
-    },
     "require": {
         "php": "^8.2|^8.3"
     }

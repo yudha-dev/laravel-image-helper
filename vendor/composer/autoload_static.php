@@ -4,32 +4,33 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit3b3343bdf168c38a9db464e664fc43bf
+class ComposerStaticInit6452a0c043b0b7d49b7103795d6265f0
 {
-    public static $prefixLengthsPsr4 = array(
-        'Y' =>
-        array(
+    public static $prefixLengthsPsr4 = array (
+        'Y' => 
+        array (
             'Yudhadev\\LaravelImageHelper\\' => 28,
         ),
     );
 
-    public static $prefixDirsPsr4 = array(
-        'Yudhadev\\LaravelImageHelper\\' =>
-        array(
+    public static $prefixDirsPsr4 = array (
+        'Yudhadev\\LaravelImageHelper\\' => 
+        array (
             0 => __DIR__ . '/../..' . '/src',
         ),
     );
 
-    public static $classMap = array(
+    public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit3b3343bdf168c38a9db464e664fc43bf::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit3b3343bdf168c38a9db464e664fc43bf::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit3b3343bdf168c38a9db464e664fc43bf::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit6452a0c043b0b7d49b7103795d6265f0::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit6452a0c043b0b7d49b7103795d6265f0::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit6452a0c043b0b7d49b7103795d6265f0::$classMap;
+
         }, null, ClassLoader::class);
     }
 }
