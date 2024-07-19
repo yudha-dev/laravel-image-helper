@@ -6,21 +6,21 @@ namespace Composer\Autoload;
 
 class ComposerStaticInit3b3343bdf168c38a9db464e664fc43bf
 {
-    public static $prefixLengthsPsr4 = array (
-        'Y' => 
-        array (
+    public static $prefixLengthsPsr4 = array(
+        'Y' =>
+        array(
             'Yudhadev\\LaravelImageHelper\\' => 28,
         ),
     );
 
-    public static $prefixDirsPsr4 = array (
-        'Yudhadev\\LaravelImageHelper\\' => 
-        array (
+    public static $prefixDirsPsr4 = array(
+        'Yudhadev\\LaravelImageHelper\\' =>
+        array(
             0 => __DIR__ . '/../..' . '/src',
         ),
     );
 
-    public static $classMap = array (
+    public static $classMap = array(
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
 
@@ -30,7 +30,6 @@ class ComposerStaticInit3b3343bdf168c38a9db464e664fc43bf
             $loader->prefixLengthsPsr4 = ComposerStaticInit3b3343bdf168c38a9db464e664fc43bf::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit3b3343bdf168c38a9db464e664fc43bf::$prefixDirsPsr4;
             $loader->classMap = ComposerStaticInit3b3343bdf168c38a9db464e664fc43bf::$classMap;
-
         }, null, ClassLoader::class);
     }
 }
