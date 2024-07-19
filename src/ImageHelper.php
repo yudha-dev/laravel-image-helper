@@ -1,12 +1,10 @@
 <?php
 
-namespace Yudhadev\LaravelImageHelper;
-
-use Illuminate\Http\UploadedFile;
+namespace App\Helpers;
 
 class ImageHelper
 {
-    public static function upload(UploadedFile $file, $path)
+    public static function upload($file, $path)
     {
         // Membuat direktori jika belum ada
         if (!file_exists(public_path($path))) {
@@ -19,12 +17,10 @@ class ImageHelper
         return $imageName;
     }
 
-    public static function deleteImage($imageName, $path)
+    public static function deleteImage($imageName)
     {
-        $imagePath = public_path($path . '/' . $imageName);
-
-        if (file_exists($imagePath)) {
-            unlink($imagePath);
+        if (file_exists(public_path($imageName))) {
+            unlink(public_path($imageName));
         }
     }
 }
