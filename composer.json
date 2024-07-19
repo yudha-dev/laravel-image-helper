@@ -1,5 +1,5 @@
 {
-    "name": "yudhadev/laravel-image-helper",
+    "name": "yudhadev/laravel-image-helpers",
     "description": "Laravel Image Upload",
     "type": "library",
     "license": "MIT",
@@ -16,5 +16,8 @@
             "Yudhadev\\LaravelImageHelper\\": "src/"
         }
     },
-    "require": {}
+    "require": {
+        "php": "^8.2|^8.3",
+        "yudhadev/laravel-image-helper": "dev-main"
+    }
 }
