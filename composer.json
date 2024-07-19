@@ -1,0 +1,21 @@
+{
+    "name": "yudhadev/laravel-image-helper",
+    "description": "helper untuk auto post gambar",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "YudhaDev\\LaravelImageHelper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yudha-dev",
+            "email": "ydnd21@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "another-vendor/package": "1.*"
+    }
+}
