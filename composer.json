@@ -17,7 +17,6 @@
         }
     },
     "require": {
-        "php": "^8.2|^8.3",
-        "yudhadev/laravel-image-helper": "dev-main"
+        "php": "^8.2|^8.3"
     }
 }
