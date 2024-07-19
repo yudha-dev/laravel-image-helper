@@ -16,7 +16,5 @@
             "Yudhadev\\LaravelImageHelper\\": "src/"
         }
     },
-    "require": {
-       "yudhadev/laravel-image-helper": "^1.0"
-    }
+    "require": {}
 }
